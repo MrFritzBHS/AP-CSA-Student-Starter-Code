@@ -1,6 +1,6 @@
 # Random Walk Assignment Instructions
 
-View a sample running [here]([https://replit.com/@stefanfritz/Walkers-and-Positions-sample-execution-from-jar-files2#instructions.md](https://codehs.com/sandbox/stefanfritz/walkers-and-position-proj-1/run)) 
+View a sample running [here](https://codehs.com/sandbox/stefanfritz/walkers-and-position-proj-1/run)
 
 For this mini-project you will create a simple game using your knowledge of classes (and other concepts). You will create two disctinct classes `Position.java` and `Walker.java`.
 
