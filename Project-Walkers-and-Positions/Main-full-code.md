@@ -45,15 +45,15 @@ class Main {
             System.out.println("\n-----" + walker1.getName() + "-----");
             System.out.print("\tChoose Direction: N, S, E, W: ");
             String direction = input.nextLine();
-            int distance = (int)(Math.random() * 8) + 3;
-            walker1.move(direction.toUpperCase(), distance);
+            // move walker
+            walker1.move(direction.toUpperCase());
 
             // Walker 2 turn
             System.out.println("\n-----" + walker2.getName() + "-----");
             System.out.print("\tChoose Direction: N, S, E, W: ");
             direction = input.nextLine();
-            distance = (int)(Math.random() * 8) + 3;
-            walker2.move(direction.toUpperCase(), distance);
+            // move walker
+            walker2.move(direction.toUpperCase());
 
             // Round summary
             System.out.println("\n### After " + (i+1) + " walks ###");
@@ -65,6 +65,7 @@ class Main {
                 }
         }
 
+        System.out.println("\n\t~~~ Game Over ~~~");
         if (walker1.closerToHome(walker2)) {
             System.out.println(walker1.getName() + " is closest to home!");
         }
