@@ -37,7 +37,7 @@ class Main {
             // Collect user input from each player to determine direction of travel
 
             // TODO
-            // Generate a random distance for each player to move from 3-10 (inclusive) units
+            // move the walker object in the chosen distance
 
             // TODO
             // Print out a summary of players' positions
