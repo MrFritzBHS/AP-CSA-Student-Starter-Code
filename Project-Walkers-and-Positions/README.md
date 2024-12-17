@@ -78,10 +78,11 @@ To create the `Main` class, you have two options:
 
 If you're feeling up for the challenge, make your game even sweeter by doing any of the following:
 
-- After the game, state which player made it furthest away from (0, 0) during the entire game.
+1. Prevent the user from going the same direction twice.
+2. After the game, state which player made it furthest away from (0, 0) during the entire game.
     - create an instance variable `maxDistance` which keeps track of the longest distance recorded by a player
-- Replace the text printout with a visualization of the player's positions. ![grid visual](assets/grid.png)
-- Create a points system that determines the winner rather than *just* ending closest to the center. Some ideas (feel free to change points):
+3. Replace the text printout with a visualization of the player's positions. ![grid visual](assets/grid.png)
+4. Create a points system that determines the winner rather than *just* ending closest to the center. Some ideas (feel free to change points):
     - 10 points for getting furthest from the origin
     - 10 points for ending closes to the origin
     - 5 points for moving at least once in each direction
