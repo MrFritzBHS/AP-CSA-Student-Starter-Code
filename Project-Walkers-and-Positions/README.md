@@ -34,7 +34,7 @@ Below are the methods you will need to create for the `Position` class. For each
 2. A `toString()` method which returns a `String` of the x, y coordinates in the form: `"(3, 2)"`
 3. An `equals(Position other)` method which returns `true` if both `Position` objects have the same coordinate.
    - Ex: if `position1` is at `(3, 5)` and `position2` is at `(3, 5)`, `position1.equals(position2)` returns `true`
-5. A method `getDistanceToZero()` which returns a `double` equal to the straight-line distance to the origin. (Shouts to Pythagorous)
+5. A method `getDistanceToZero()` which returns a `double` equal to the straight-line distance to the origin. (Shouts to Pythagoras)
 
 ## `Walker` class
 
